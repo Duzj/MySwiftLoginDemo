@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //cgrect
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds );
+        let loginVC = TNLoginViewController();
+//        let nav = UINavigationController.init(rootViewController: loginVC)
+        
+        self.window?.rootViewController = loginVC;
+        self.window?.makeKeyAndVisible();
+        
+        
         return true
     }
 

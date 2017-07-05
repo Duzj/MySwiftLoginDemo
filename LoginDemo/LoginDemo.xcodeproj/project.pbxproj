@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		9B837087BB159A92248F9BEF /* Pods_LoginDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AE9258BDB3E0FFD3EA0720 /* Pods_LoginDemo.framework */; };
 		FB4F679E1EE1479900B9DEA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F679D1EE1479900B9DEA7 /* AppDelegate.swift */; };
-		FB4F67A01EE1479900B9DEA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F679F1EE1479900B9DEA7 /* ViewController.swift */; };
 		FB4F67A31EE1479900B9DEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4F67A11EE1479900B9DEA7 /* Main.storyboard */; };
 		FB4F67A51EE1479900B9DEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4F67A41EE1479900B9DEA7 /* Assets.xcassets */; };
 		FB4F67A81EE1479900B9DEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4F67A61EE1479900B9DEA7 /* LaunchScreen.storyboard */; };
 		FB4F67B31EE1479900B9DEA7 /* LoginDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F67B21EE1479900B9DEA7 /* LoginDemoTests.swift */; };
 		FB4F67BE1EE1479900B9DEA7 /* LoginDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F67BD1EE1479900B9DEA7 /* LoginDemoUITests.swift */; };
 		FB4F67CC1EE14B8100B9DEA7 /* TNNetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F67CB1EE14B8100B9DEA7 /* TNNetManager.swift */; };
+		FBCAAEBC1F0C8E88002938B7 /* TNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCAAEBB1F0C8E88002938B7 /* TNLoginViewController.swift */; };
+		FBCAAEC01F0C9260002938B7 /* img_material_m48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCAAEBE1F0C9260002938B7 /* img_material_m48@2x.png */; };
+		FBCAAEC11F0C9260002938B7 /* img_material_m48@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCAAEBF1F0C9260002938B7 /* img_material_m48@3x.png */; };
+		FBCAAEC31F0C9813002938B7 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCAAEC21F0C9813002938B7 /* UIColor+RGB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,6 @@
 		F38807945CEAAE35E8ED5EF7 /* Pods-LoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginDemo/Pods-LoginDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FB4F679A1EE1479900B9DEA7 /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4F679D1EE1479900B9DEA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB4F679F1EE1479900B9DEA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB4F67A21EE1479900B9DEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB4F67A41EE1479900B9DEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4F67A71EE1479900B9DEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		FB4F67BD1EE1479900B9DEA7 /* LoginDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoUITests.swift; sourceTree = "<group>"; };
 		FB4F67BF1EE1479900B9DEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB4F67CB1EE14B8100B9DEA7 /* TNNetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNNetManager.swift; sourceTree = "<group>"; };
+		FBCAAEBB1F0C8E88002938B7 /* TNLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNLoginViewController.swift; sourceTree = "<group>"; };
+		FBCAAEBE1F0C9260002938B7 /* img_material_m48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_material_m48@2x.png"; sourceTree = "<group>"; };
+		FBCAAEBF1F0C9260002938B7 /* img_material_m48@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_material_m48@3x.png"; sourceTree = "<group>"; };
+		FBCAAEC21F0C9813002938B7 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				FB4F679D1EE1479900B9DEA7 /* AppDelegate.swift */,
-				FB4F679F1EE1479900B9DEA7 /* ViewController.swift */,
+				FBCAAEBB1F0C8E88002938B7 /* TNLoginViewController.swift */,
+				FBCAAEC21F0C9813002938B7 /* UIColor+RGB.swift */,
 				FB4F67CB1EE14B8100B9DEA7 /* TNNetManager.swift */,
+				FBCAAEBD1F0C9260002938B7 /* Resources */,
 				FB4F67A11EE1479900B9DEA7 /* Main.storyboard */,
 				FB4F67A41EE1479900B9DEA7 /* Assets.xcassets */,
 				FB4F67A61EE1479900B9DEA7 /* LaunchScreen.storyboard */,
@@ -150,6 +158,15 @@
 				FB4F67BF1EE1479900B9DEA7 /* Info.plist */,
 			);
 			path = LoginDemoUITests;
+			sourceTree = "<group>";
+		};
+		FBCAAEBD1F0C9260002938B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBCAAEBE1F0C9260002938B7 /* img_material_m48@2x.png */,
+				FBCAAEBF1F0C9260002938B7 /* img_material_m48@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +285,8 @@
 				FB4F67A81EE1479900B9DEA7 /* LaunchScreen.storyboard in Resources */,
 				FB4F67A51EE1479900B9DEA7 /* Assets.xcassets in Resources */,
 				FB4F67A31EE1479900B9DEA7 /* Main.storyboard in Resources */,
+				FBCAAEC11F0C9260002938B7 /* img_material_m48@3x.png in Resources */,
+				FBCAAEC01F0C9260002938B7 /* img_material_m48@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4F67A01EE1479900B9DEA7 /* ViewController.swift in Sources */,
+				FBCAAEBC1F0C8E88002938B7 /* TNLoginViewController.swift in Sources */,
 				FB4F67CC1EE14B8100B9DEA7 /* TNNetManager.swift in Sources */,
 				FB4F679E1EE1479900B9DEA7 /* AppDelegate.swift in Sources */,
+				FBCAAEC31F0C9813002938B7 /* UIColor+RGB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
